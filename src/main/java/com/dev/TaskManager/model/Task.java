@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @Setter
 public class Task {
 
-    private Double id;
+    private Long id;
     private String description;
     private TaskStatus status;
     private TaskPriority priority;
